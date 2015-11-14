@@ -14,6 +14,6 @@ LOGIC FOR THE SOLUTION
 
 - A palindrome, if broken down into 2 halves, each halve is the reverse of the other. 
 - If size of palindrome is odd, discard the mid character for the above statement to hold true.
-- These statements have the following IMPLICATION:
+- These statements have the following implication:
 - All unique characters must have even occurrence,  except the mid character if size of string is odd
 - At most only one character can have odd occurrence. 
