@@ -62,12 +62,3 @@ if __name__ == "__main__":
     probabilityOfPalindromeStr = numOfPalindromeStr/numOfStr       #calculate probability
     
     print("Probability is {0:.10}".format(probabilityOfPalindromeStr))    #Output result to 10 decimal places
-    
-    
-    
-    
-    
-    
-    
-    
-    
