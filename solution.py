@@ -10,7 +10,7 @@
 def createStrList(fileName):
     with open(fileName,'r') as file:                        #open the file then close after reading
         content = file.read()                               #read content
-    strList = content.replace('"', '').split(',')           # replace " with nothing then tokenize string to a list of strings
+    strList = content.replace('"', '').replace('\n', '').split(',')           # replace " with nothing then tokenize string to a list of strings
     return strList
 
 
