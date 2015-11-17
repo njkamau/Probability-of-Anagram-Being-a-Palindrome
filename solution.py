@@ -56,7 +56,7 @@ def calculateStrThatCanFormPalindrome(strList):
 
 """..........Execute the program.........."""
 if __name__ == "__main__":
-    strList = createStrList("strings")
+    strList = createStrList("strings.txt")
     numOfStr = len(strList)
     numOfPalindromeStr = calculateStrThatCanFormPalindrome(strList)    
     probabilityOfPalindromeStr = numOfPalindromeStr/numOfStr       #calculate probability
